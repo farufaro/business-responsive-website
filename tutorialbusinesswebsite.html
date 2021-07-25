@@ -32,7 +32,7 @@
     <!-- side navigation menu -->
     <nav id="sideNav">
         <ul>
-            <!-- mga # galing sa section id -->
+      
             <li><a href="#header">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#features">FEATURES</a></li>
@@ -49,7 +49,7 @@
         <div class="about-left-col">
             <img src="images/about.png">
         </div>
-        <!-- dito yung description for about us -->
+        
         <div class="about-right-col">
             <div class="about-text">
                 <h1>About Us</h1>
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="course-right-col">
-                <img src="course.png">
+                <img src="images/course.png">
             </div>
     </section>
     <!-- Offers -->
@@ -219,18 +219,18 @@
         var menuBtn = document.getElementById("menuBtn");
         var sideNav = document.getElementById("sideNav");
 
-        //para gumana yung button
+        
         sideNav.style.right = "-250px";
         menuBtn.onclick = function() {
                 if (sideNav.style.right == "-250px") {
-                    //0 para lumabas yung menu;kabaliktaran ng -250
+                    
                     sideNav.style.right = "0";
                 } else {
-                    //it will remain hidden
+                    
                     sideNav.style.right = "-250px";
                 }
             }
-            //for scrolling
+           
         var scroll = new SmoothScroll('a[href*="#"]', {
             speed: 1000,
             speedAsDuration: true
