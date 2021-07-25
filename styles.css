@@ -29,7 +29,7 @@
 }
 
 
-/* width and spacing from top */
+
 
 .header-text {
     max-width: 350px;
@@ -37,7 +37,6 @@
 }
 
 
-/* font of h1 title */
 
 h1 {
     font-size: 30px;
@@ -52,7 +51,7 @@ h1 {
 }
 
 
-/* for read more button */
+
 
 .common-btn {
     padding: 18px 40px;
@@ -64,7 +63,7 @@ h1 {
 }
 
 
-/* lorem ipsum(description ng business */
+
 
 p {
     font-size: 15px;
@@ -73,7 +72,7 @@ p {
 }
 
 
-/* to add space ng header text from the button */
+
 
 .header-text button {
     margin-top: 20px;
@@ -81,7 +80,7 @@ p {
 }
 
 
-/* 1box and 2lines */
+
 
 .line-1 {
     width: 15px;
@@ -105,7 +104,7 @@ p {
 }
 
 
-/* decrease the space between the lines and the box */
+
 
 .line {
     line-height: 8px;
@@ -125,16 +124,16 @@ p {
 }
 
 
-/* walang . or # kasi tag yung nav */
+
 
 nav ul li {
-    /*  para mawala bullets nung list */
+
     list-style: none;
     margin: 50px 20px;
 }
 
 
-/* mawala yung line and maging white yung text */
+
 
 nav ul li a {
     text-decoration: none;
@@ -142,7 +141,7 @@ nav ul li a {
 }
 
 
-/* menu icon to open and close the side nav menu */
+
 
 #menuBtn {
     width: 50px;
@@ -154,10 +153,10 @@ nav ul li a {
 }
 
 
-/* about, #offers */
 
 
-/* same css attributes will be applied for offers */
+
+
 
 #about,
 #offers {
@@ -233,19 +232,17 @@ nav ul li a {
 }
 
 
-/* button under features */
+
 
 .feat-btn {
     margin: 80px auto 0;
     display: flex;
-    /* content will be aligen at the bottom(end) */
     align-items: flex-end;
-    /* content will be aligen at the bottom(end) */
     justify-content: center;
 }
 
 
-/* 1box and 2lines */
+
 
 .feat-btn .line {
     text-align: right;
@@ -267,31 +264,25 @@ nav ul li a {
 }
 
 .course-right-col {
-    /* will occupy 50% of the row */
     flex-basis: 50%;
 }
 
 .course-right-col img {
-    /* img will occupy the right column */
     width: 100%;
 }
 
-
-/* para lumipat pic sa right, maging empty yung left column since walang content na nilagay */
 
 .course-left-col {
     flex-basis: 50%;
 }
 
 
-/* small width for the courses text */
-
 .course-text {
     max-width: 350px;
 }
 
 
-/* to add space in the button and paragraph */
+
 
 .course-text button {
     margin: 30px 0;
@@ -301,7 +292,7 @@ nav ul li a {
 /* offers */
 
 
-/* to add space in the button and paragraph */
+
 
 #offers button {
     margin: 30px 0;
@@ -426,14 +417,9 @@ hr {
     position: fixed;
     top: 50%;
     left: 0;
-    /* content to be vertically centered */
     transform: translateY(-50%);
-    /* content to be vertically centered */
     z-index: 1;
 }
-
-
-/* to add spacings on socmed icons */
 
 .socmed-icons img {
     display: block;
@@ -443,7 +429,6 @@ hr {
 }
 
 
-/* website to fit for small screens/phones */
 
 @media only screen and (max-width: 770px) {
     #header {
@@ -454,15 +439,12 @@ hr {
         margin-left: 50px;
     }
     .logo {
-        /* space sa top */
         margin-top: 27px;
         width: 70px;
     }
-    /* width and spacing from top */
     .header-text {
         margin-top: 100px;
     }
-    /* font of h1 title */
     h1 {
         font-size: 25px;
     }
